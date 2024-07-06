@@ -67,7 +67,7 @@ declare type Transaction = {
   $id: string;
   name: string;
   paymentChannel: string;
-  type: string;
+  //type: string; 重複してるので削除
   accountId: string;
   amount: number;
   pending: boolean;
@@ -202,7 +202,7 @@ declare interface BankTabItemProps {
   appwriteItemId?: string;
 }
 
-declare interface TotlaBalanceBoxProps {
+declare interface TotalBalanceBoxProps {
   accounts: Account[];
   totalBanks: number;
   totalCurrentBalance: number;
