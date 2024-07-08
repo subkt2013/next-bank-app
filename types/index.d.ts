@@ -326,3 +326,8 @@ declare interface getBankProps {
 declare interface getBankByAccountIdProps {
   accountId: string;
 }
+
+declare interface HeadLineProps {
+  title: string;
+  text: string;
+}
